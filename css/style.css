@@ -1,6 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(177, 157, 104);
+}
+
+.container-wrapper {
+
+}
+
+.container-wrapper--brown {
+    background-color: #b19d68;
+    color: white;
 }
 
 .alert-container .col-12 {
@@ -12,8 +20,12 @@ body {
     border-radius: 0;
     margin-bottom: 0;
     padding: 5px 15px;
-    background-color: yellow;
-    border-color: yellow;
+    background-color: #b19d68;
+    border-color: #b19d68;
+}
+
+.site-wide-alert a {
+    color: yellow;
 }
 
 .callout-container {
@@ -50,7 +62,29 @@ body {
 }
 
 .favourites-container {
+    
+}
 
+#favourites-table {
+    background-color: #b19d68;
+    color: white;
+}
+
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
 }
 
 /* Block Dividers */
@@ -59,14 +93,27 @@ body {
     width: 150px;
     height: 5px;
     border: 0;
+    background-color: darkgrey;
+    margin-bottom: 35px;
 }
 
 .block-divider--peru {
     background-color: peru;
 }
 
+.block-divider--white {
+    background-color: whitesmoke;
+}
+
 .block-divider--short {
     width: 75px;
+}
+
+/* Content Containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Navbar */
@@ -143,4 +190,25 @@ body {
     color: lightgrey;
     background-color: maroon;
     border-color: maroon;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #b19d68;
 }

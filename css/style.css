@@ -8,7 +8,17 @@ body {
 }
 
 .callout-container {
+    height: 100vh;
 
+    background: url(../images/whiskeyRP.jpg) no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quotes-container {
@@ -16,5 +26,13 @@ body {
 }
 
 .favourites-container {
-    
+
+}
+
+/* Jumbotron */
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
